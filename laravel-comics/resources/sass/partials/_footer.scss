@@ -1,0 +1,107 @@
+.info {
+  background-image: url('/img/footer-bg.jpg');
+    background-size: cover;
+    height: 350px;
+      .container {
+          height: 100%;
+          width: 80%;
+          margin: auto;
+            .left-side {
+                height: 100%;
+                width: 50%;
+                float: left;
+                 .col {
+                     height: 100%;
+                     width: calc(100%/4);
+                     float: left;
+                     ul {
+                         list-style: none;
+                         padding-top: 30px;
+                         li {
+                             font-size: 12px;
+                            padding: 3px;
+                                h3 {
+                                    color: white;
+                                    font-size: 20px;
+                                    padding-bottom: 5px;
+                                }
+                             
+                                a {
+                                 color: rgba(126, 126, 126, 0.993);
+                                 text-decoration: none;
+                                     &:hover {
+                                         color: white;
+                                     }
+                             }
+
+                         }   
+                     }
+                 }
+            }
+            .right-side {
+                height: 100%;
+                width: 50%;
+                float: left;
+                background-image: url('/img/dc-logo-bg.png');
+                background-repeat: no-repeat;
+                background-position: 100%;
+                background-size: 90%;
+            }
+           
+      }
+ }
+
+footer {
+
+    .actions {
+      background-color: rgb(48, 48, 48);
+      height: calc(100vh - 625px);
+        div.container {
+          width: 80%;
+          height: 100%;
+          margin: auto;
+             .left-side {
+               width: 50%;
+               height: 100%;
+               float: left;
+               display: flex;
+               align-items: center;
+                #sign-up {
+                  background-color: transparent;
+                  padding: 8px;
+                  border: 1px solid black;
+                  color: white;
+                  font-size: 15px;
+                  cursor: pointer;
+                }
+             }
+             .right-side {
+                width: 50%;
+                height: 100%;
+                float: left;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                 ul {
+                   list-style: none;
+                   display: flex;
+                   align-items: center;
+                    li {
+                      display: inline-block;
+                      margin: 10px;
+                        a img:hover {
+                          filter: drop-shadow(0 0 0.75rem blue);
+                        }
+                        button {
+                          background-color: transparent;
+                          border: none;
+                          color: blue;
+                          font-weight: 600;
+                          cursor: pointer;
+                        }
+                    }
+                 }
+             }
+        }
+    }
+}
