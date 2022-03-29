@@ -6,10 +6,10 @@
         <div class="container">
              
             <a href="#">
-               @foreach ($fumetti as $fumetto)
+               @foreach ($fumetti as $key => $fumetto)
                     <div class="card">
                         <img src={{$fumetto["thumb"]}} alt="">
-                        <p class="title">{{$fumetto["series"]}}</p>
+                        <a href="/fumetto/{{$key}}"><p class="title">{{$fumetto["series"]}}</p></a>
                     </div>
                 @endforeach
             </a>

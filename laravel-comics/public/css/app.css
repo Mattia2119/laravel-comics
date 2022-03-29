@@ -254,6 +254,7 @@ footer .actions div.container .right-side ul li button {
   font-weight: 600;
   color: white;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .comics .container .long-card {
